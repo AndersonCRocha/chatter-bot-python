@@ -1,0 +1,18 @@
+[
+  {
+    "questions": ["olá", "oi", "ei"],
+    "answer": "Olá, sou o robô de atendimento. Como posso ajudar?"
+  },
+  {
+    "questions": ["bom dia"],
+    "answer": "Bom dia, sou o robô de atendimento. Como posso ajudar?"
+  },
+  {
+    "questions": ["boa tarde"],
+    "answer": "Boa tarde, sou o robô de atendimento. Como posso ajudar?"
+  },
+  {
+    "questions": ["boa noite"],
+    "answer": "Boa noite, sou o robô de atendimento. Como posso ajudar?"
+  }
+]
