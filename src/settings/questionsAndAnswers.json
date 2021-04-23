@@ -1,6 +1,72 @@
 [
   {
-    "questions": ["teste", "pergunta teste"],
-    "answer": "Esta é uma resposta para sua pergunta de teste"
+    "questions": [
+      "Quanto está o pneu da biz?",
+      "Quanto está o pneu da biz100?",
+      "Quanto está o pneu da biz125?",
+      "Qual valor do pneu da biz?",
+      "Qual valor do pneu da biz100?",
+      "Qual valor do pneu da biz125?",
+      "Qual preço do pneu da biz?",
+      "Qual preço do pneu da biz100?",
+      "Qual preço do pneu da biz125?"
+    ],
+    "answer": "O pneu da biz temos da marca Pirelli em estoque no valor de R$ 150,00."
+  },
+  {
+    "questions": [
+      "Qual valor do pedido mínimo?",
+      "Qual o pedido mínimo?",
+      "Qual o valor mínimo para compra?",
+      "Qual valor mínimo para pedido?",
+      "Tem valor mínimo de pedido?",
+      "Valor mínimo do pedido"
+    ],
+    "answer": "O valor mínimo para pedidos é de R$ 300,00."
+  },
+  {
+    "questions": [
+      "Qual desconto a vista?",
+      "Qual a taxa de desconto a vista?",
+      "Qual valor do desconto a vista?"
+    ],
+    "answer": "Para pagamentos a vista ofertamos um desconto de 10%."
+  },
+  {
+    "questions": [
+      "Vende apenas no atacado?",
+      "Só pode fazer compra no atacado?",
+      "Também vende no varejo?",
+      "Vocês vendem no varejo?",
+      "A loja trabalha apenas com venda no atacado?"
+    ],
+    "answer": "Atuamos com venda no atacado e também no varejo, porém com valor mínimo de compra."
+  },
+  {
+    "questions": [
+      "Quanto é o frete?",
+      "Qual valor do frete?",
+      "Qual o valor do frete?",
+      "Qual a taxa de frete?"
+    ],
+    "answer": "Para pedidos acima de R$ 1.000,00, o frete é por nossa conta, abaixo disso é cobrado um valor fixo de R$ 30,00."
+  },
+  {
+    "questions": [
+      "Tem capacete feminino?",
+      "Vende capacete feminino?",
+      "Vende capatece de mulher?"
+    ],
+    "answer": "Sim, trabalhamos com diversos modelos de capacete. Temos da marca ProTork e Taurus."
+  },
+  {
+    "questions": [
+      "Quais as formas de pagamento?",
+      "Qual a forma de pagamento?",
+      "Aceita cartão?",
+      "Como faço o pagamento?",
+      "Posso pagar no cartão?"
+    ],
+    "answer": "As nossas formas de pagamento são: Cartão de crédito, Cartão de débito e Boleto bancário."
   }
 ]

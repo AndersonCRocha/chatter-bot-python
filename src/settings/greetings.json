@@ -14,5 +14,9 @@
   {
     "questions": ["boa noite"],
     "answer": "Boa noite, sou o robô de atendimento. Como posso ajudar?"
+  },
+  {
+    "questions": ["obrigado"],
+    "answer": "Por nada. Volte sempre!"
   }
 ]

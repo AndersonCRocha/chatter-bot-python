@@ -59,6 +59,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  text-align: center;
 }
 
 main .box-wrapper {
@@ -128,16 +129,44 @@ form input {
   font-size: 1rem;
 }
 
-form button {
+.btn-send {
   background-color: #09f700;
   color: #FFFFFF;
   text-transform: uppercase;
   padding: 1rem;
   border-radius: .5rem;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
 }
 
-form button:hover {
+.btn-send:hover {
   cursor: pointer;
   filter: brightness(0.9);
+}
+
+.btn-send .icon {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 450px) {
+  header h1 {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header h1 span:last-child {
+    font-size: 1.2rem;
+  }
+
+  .content-wrapper {
+    padding: .2rem;
+  }
+
+  .btn-send .text {
+    display: none;
+  }
 }

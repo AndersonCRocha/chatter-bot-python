@@ -9,8 +9,10 @@
     messagesBox.appendChild(myMessage)
     scrollToElementBottom(messagesBox)
 
-    const response = await fetch(`http://localhost:5000/answer/${message}`)
-    const responseText = await response.text()
+    const response = await fetch(`/answer/${message}`)
+    const responseText = await response.status === 200
+      ? await response.text()
+      : 'Houve um erro de conexão com servidor do robô.'
 
     const botMessage = createMessageBallon({ message: responseText, isBot: true })
     messagesBox.appendChild(botMessage)

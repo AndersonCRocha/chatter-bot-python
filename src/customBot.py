@@ -29,12 +29,12 @@ class CustomBot:
       )
       
       similarity = round(similarity.ratio(), 2)
+      if self.isDebug:
+        print(f'Question: {questionText}')
+        print(f'Possible answer: {answerText}')
+        print(f'Similarity: {similarity}')
+        
       if similarity >= ACCEPTANCE:
-        if self.isDebug:
-          print(f'Question: {questionText}')
-          print(f'Possible answer: {answerText}')
-          print(f'Similarity: {similarity}')
-          
         return similarity
   
     return 0.0
